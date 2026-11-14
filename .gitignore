@@ -218,3 +218,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# AWS / CDK
+cdk.out/
+cdk.context.json
+.aws-sam/
+*.pem
+.env
+.env.*
+
+# Data (never commit real data)
+data/
+*.parquet
+*.csv
